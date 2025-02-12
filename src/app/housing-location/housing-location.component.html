@@ -1,5 +1,7 @@
 <section class="listing">
-    <img src="" alt="Dummy Image" class="listing-photo">
-    <h2 class="listing-heading">Dummy Heading</h2>
-    <p class="listing-location">Dummy Location</p>
+    <img [src]="housingLocation.photo"
+        alt="Exterior photo of {{ housingLocation.name }}"
+        class="listing-photo">
+    <h2 class="listing-heading">{{ housingLocation.name }}</h2>
+    <p class="listing-location">{{ housingLocation.city }}, {{ housingLocation.state }}</p>
 </section>
