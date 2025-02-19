@@ -120,4 +120,11 @@ export class HousingService {
       housingLocation => housingLocation.id === id
     );
   }
+
+  submitApplication(firstName: String, lastName: String, email: String): void {
+    console.log('inside service called submitApplication');
+    console.log('firstName', firstName);
+    console.log('lastName', lastName);
+    console.log('email', email);
+  }
 }
