@@ -122,7 +122,7 @@ export class HousingService {
   }
 
   submitApplication(firstName: String, lastName: String, email: String): void {
-    console.log('inside service called submitApplication');
+    console.log('application submitted with the following data:');
     console.log('firstName', firstName);
     console.log('lastName', lastName);
     console.log('email', email);
